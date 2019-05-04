@@ -1,0 +1,14 @@
+{
+  "name": "april",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sassy/main.scss css/index.css -w"
+  },
+  "author": "april",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

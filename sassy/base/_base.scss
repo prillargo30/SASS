@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* converting px to rem === 1rem=10px */
+/* divide 10/16 gives 0.625 that's why the font size is 62.5%. */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}

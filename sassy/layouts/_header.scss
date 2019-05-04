@@ -1,0 +1,30 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right top, #051937c0, #004d7ac0, #008793c0, #00bf73c0, #a6eb12c0), url(../image/scenicview.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 75vh, 100% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 75vh, 100% 0);
+
+    &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+    }
+        
+    &__logo {
+    height: 7.5rem;
+    }
+        
+    &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+}
+
+/* clip-path is making like the slide */
+/* transform section to fix the text in the center */
